@@ -163,8 +163,7 @@ RUN code --install-extension ms-python.python --user-data-dir=/root/.vscode/ \
 	&& code --install-extension ms-azuretools.vscode-docker --user-data-dir=/root/.vscode/ \
 	&& code --install-extension streetsidesoftware.code-spell-checker --user-data-dir=/root/.vscode/ \
 	&& code --install-extension eamodio.gitlens --user-data-dir=/root/.vscode/ \
-	&& code --install-extension ajshort.ros --user-data-dir=/root/.vscode/ \
-	&& code --install-extension ajshort.msg --user-data-dir=/root/.vscode/
+	&& code --install-extension ms-iot.vscode-ros --user-data-dir=/root/.vscode/ 
 
 # Install Python linter as recommended by Python extension.
 RUN /usr/bin/python -m pip install -U \
